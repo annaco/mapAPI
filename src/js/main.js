@@ -11,7 +11,7 @@ function initMap() {
         
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom:5,
-          center: kolartorp
+          center: new google.maps.LatLng(59.826056,15.69152)
         });
         var marker = new google.maps.Marker({
           position: kolartorp,
