@@ -1,0 +1,24 @@
+body, html {
+    background: #dddada;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+        font-size: 28px;
+        font-weight: bold;
+        padding: 1.0714em 0 0 0;
+    }
+
+    #map {
+        height: 41.75em;
+        width: 56.25em;
+        align-items: center;
+        margin-top: 40px;
+    }
+}
